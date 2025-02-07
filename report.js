@@ -1,50 +1,59 @@
-const studentsName = ["Manolo", "Pepito"];
-const studentsLastName = ["Diaz", "Crespo"];
-const studentsAge = [24, 27];
+const studentName1 = "Manolo";
+const studentName2 = "Pepito";
+const studentLastName1 = "Diaz";
+const studentLastName2 = "Crespo";
+const studentAge1 = 24;
+const studentAge2 = 27;
 
-const coursesName = ["Jardineria", "Cuidado de mascotas", "Ajedrez"];
-const coursesDificulty = ["intermedio", "básico", "avanzado"];
-const coursesDuration = [25, 5, 40];
+const courseName1 = "Jardineria";
+const courseName2 = "Cuidado de mascotas";
+const courseName3 = "Ajedrez";
+const courseDificulty1 = "básico";
+const courseDificulty2 = "intermedio";
+const courseDificulty3 = "avanzado";
+const courseDuration1 = 25;
+const courseDuration2 = 5;
+const courseDuration3 = 40;
 
-const averageAge = (studentsAge[0] + studentsAge[1]) / studentsAge.length;
+const averageAge = (studentAge1 + studentAge2) / 2;
 
 console.log("\nINFORME DE LA ESCUELA");
 
 console.log(
   "\n   Cursos:\n   - " +
-    coursesName[0] +
+    courseName1 +
     " (" +
-    coursesDificulty[0] +
+    courseDificulty1 +
     ", " +
-    coursesDuration[0] +
+    courseDuration1 +
     " horas)\n   - " +
-    coursesName[1] +
+    courseName2 +
     " (" +
-    coursesDificulty[1] +
+    courseDificulty2 +
     ", " +
-    coursesDuration[1] +
+    courseDuration2 +
     " horas)\n   - " +
-    coursesName[2] +
+    courseName3 +
     " (" +
-    coursesDificulty[2] +
+    courseDificulty3 +
     ", " +
-    coursesDuration[2] +
+    courseDuration3 +
     " horas)"
 );
 
 console.log(
   "\n   Alumnos:\n   - " +
-    studentsName[0] +
+    studentName1 +
     " " +
-    studentsLastName[0] +
+    studentLastName1 +
     ", " +
-    studentsAge[0] +
+    studentAge1 +
     " años\n   - " +
-    studentsName[1] +
+    studentName2 +
     " " +
-    studentsLastName[1] +
+    studentLastName2 +
     ", " +
-    studentsAge[1] +
+    studentAge2 +
     " años"
 );
 
